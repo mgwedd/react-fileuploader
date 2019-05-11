@@ -1,0 +1,22 @@
+.ListItem {
+    display: flex;
+    border: solid black 1px;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px;
+}
+
+.ListItem__content, .ListItem__heading, .ListItem__actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ControlBar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ControlBar__btn {
+    padding-right: 25px;
+}
